@@ -10,6 +10,7 @@ module.exports = {
       blue: "#393CCC",
       black: colors.black,
       white: colors.white,
+      slate: colors.slate,
       gray: colors.gray,
       emerald: colors.emerald,
       indigo: "#0ff",

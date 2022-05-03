@@ -20,8 +20,8 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-row items-center h-full">
-      <article className="w-6/12 px-8">
+    <div className="flex flex-row items-center h-full p-8">
+      <article className="w-6/12 p-8">
         <h1>
           The Mokie's are <br />
           <span className="text-blue">growing</span>
