@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { MenuInfo } from "rc-menu/lib/interface";
 import { defaultState, tabs } from "./layout-nav.constants";
 import { Link } from "react-router-dom";
 import { NavigationItemType } from "types/navigation/navigation";
@@ -12,7 +11,7 @@ const LayoutNav = () => {
   );
 
   return (
-    <div className="p-6 flex flex-row justify-between">
+    <div className="p-6 flex flex-row justify-between fixed w-full top-0">
       <div className="flex flex-row items-center">
         <div className="pr-4">
           <Link to="/">
@@ -59,9 +58,11 @@ const LayoutNav = () => {
           </a>
         </div>
         <div className="pr-4">
-          <Button type="primary" shape="round" size="large">
-            Mint
-          </Button>
+          <Link to="/">
+            <Button type="primary" shape="round" size="large">
+              Mint
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

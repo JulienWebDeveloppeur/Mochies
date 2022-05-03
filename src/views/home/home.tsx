@@ -62,8 +62,12 @@ const Home = () => {
           </Button>
         </div>
       </article>
-      <article className="w-6/12 p-8">
-        <img src={mokies} alt="preview on the mokies collection" />
+      <article className="w-6/12 h-full">
+        <img
+          className="h-full ml-auto"
+          src={mokies}
+          alt="preview on the mokies collection"
+        />
       </article>
     </div>
   );
