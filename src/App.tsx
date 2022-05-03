@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.less";
+import { hot } from "react-hot-loader/root";
+import LayoutNav from "./components/core/layout/layout-nav";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routing from "routes/routing";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <header>
+      <LayoutNav></LayoutNav>
+    </header>
+    <section className="p-12 pt-4 full-page">
+      <Routing></Routing>
+    </section>
+  </Router>
+);
 
-export default App;
+export default hot(App);
