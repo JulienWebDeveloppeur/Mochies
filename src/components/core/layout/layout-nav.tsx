@@ -58,11 +58,16 @@ const LayoutNav = () => {
           </a>
         </div>
         <div className="pr-4">
-          <Link to="/">
-            <Button type="primary" shape="round" size="large">
-              Mint
-            </Button>
-          </Link>
+          <Button
+            type="primary"
+            shape="round"
+            size="large"
+            onClick={() =>
+              window.open("https://themokies.vercel.app/", "_blank")
+            }
+          >
+            Mint
+          </Button>
         </div>
       </div>
     </div>

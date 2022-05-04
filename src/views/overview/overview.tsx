@@ -10,7 +10,7 @@ const Overview = () => {
         </h1>
         <p className="font-bold">
           A community-driven collectibles project. The Mokie’s come in a joyful
-          range of colors, traits and sizes with a collection size of 3333.
+          range of colors, traits and sizes with a collection size of 1111.
         </p>
       </section>
       <section className="mb-12">
@@ -32,23 +32,35 @@ const Overview = () => {
         </div>
         <div>
           <h4 className="text-slate-300">What is our supply?</h4>
-          <h3 className="mb-8">3333</h3>
+          <h3 className="mb-8">1111</h3>
           <h4 className="text-slate-300">What is the mint price?</h4>
-          <h3 className="mb-8">0.01</h3>
+          <h3 className="mb-8">0.2 Sol</h3>
           <h4 className="text-slate-300">Where can I mint?</h4>
-          <h3 className="mb-8">Only on this website</h3>
+          <h3 className="mb-8">
+            <a
+              onClick={() =>
+                window.open("https://themokies.vercel.app/", "_blank")
+              }
+            >
+              https://themokies.vercel.app/
+            </a>
+          </h3>
           <h4 className="text-slate-300">When is the minting date?</h4>
           <h3 className="mb-8">May 20th, 2022.</h3>
           <h4 className="text-slate-300">
             Where will secondary sales take place?
           </h4>
-          <h3 className="mb-8">https://opensea.io/collection/themokie’s</h3>
-          <h4 className="text-slate-300">
-            What is the smart contract address?
-          </h4>
-          {/* todo change address */}
           <h3 className="mb-8">
-            https://etherscan.io/address/xxxxxxxxxxxxxxxxxxxxxx
+            <a
+              onClick={() =>
+                window.open(
+                  "https://magiceden.io/marketplace/themokies",
+                  "_blank"
+                )
+              }
+            >
+              https://magiceden.io/marketplace/themokies
+            </a>
           </h3>
         </div>
       </section>

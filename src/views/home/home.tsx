@@ -1,22 +1,14 @@
 import mokies from "assets/images/Mokies.png";
 import { Button } from "antd";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 
 const Home = () => {
   const [mintNbr, setValue] = useState<number>(1);
+  const navigate = useNavigate();
 
   const handleMint = () => {
-    // todo handle mint
-  };
-
-  const lessMint = () => {
-    const newMintNbr = mintNbr - 1;
-    if (newMintNbr > 0) setValue(newMintNbr);
-  };
-
-  const moreMint = () => {
-    const newMintNbr = mintNbr + 1;
-    if (newMintNbr <= 3) setValue(newMintNbr);
+    window.open("https://themokies.vercel.app/", "_blank");
   };
 
   return (
@@ -28,7 +20,7 @@ const Home = () => {
         </h1>
         <p>
           A community-driven collectibles project. The Mokie’s come in a joyful
-          range of colors, traits and sizes with a collection size of 3333. Each
+          range of colors, traits and sizes with a collection size of 1111. Each
           Mokie you earn get you closer to eternal happiness.
         </p>
         <div>
@@ -36,20 +28,10 @@ const Home = () => {
             type="ghost"
             shape="round"
             size="large"
-            className="w-20 !h-16 mr-8"
-            onClick={() => lessMint()}
+            className="w-40 !h-16 mr-8"
+            onClick={() => navigate("overview")}
           >
-            -
-          </Button>
-          <span>{mintNbr}</span>
-          <Button
-            type="ghost"
-            shape="round"
-            size="large"
-            className="w-20 !h-16 mx-8"
-            onClick={() => moreMint()}
-          >
-            +
+            Learn more
           </Button>
           <Button
             type="primary"
