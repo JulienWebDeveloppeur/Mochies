@@ -1,4 +1,4 @@
-import BannerWithText from "assets/images/BannerWithText.png";
+import Banner from "assets/images/Banner.png";
 import TeamAvatars from "assets/images/TeamAvatars.png";
 
 const Overview = () => {
@@ -6,15 +6,22 @@ const Overview = () => {
     <div className="p-8 max-w-6xl container mx-auto">
       <section className="text-center mb-12">
         <h1 className="mb-8">
-          THE <span className="text-blue">Mokie's</span> IS
+          THE <span className="text-blue">Gooky's</span> ARE
         </h1>
         <p className="font-bold">
-          A community-driven collectibles project. The Mokie’s come in a joyful
-          range of colors, traits and sizes with a collection size of 1111.
+          A community-driven collectibles project. This collection might bring
+          you some surprises, they are designed to evolve and give you access to
+          future collection.
         </p>
       </section>
-      <section className="mb-12">
-        <img src={BannerWithText} alt="banner" />
+      <section className="mb-12 relative h-60 flex items-center">
+        <img src={Banner} alt="banner" className="absolute" />
+        <p className="font-bold text-center px-4">
+          We are releasing a Genesis collection of 111 Gooky's. Holders of our
+          genesis collection will have full access to our community and a
+          beautiful pfp. They also have a say in the decision making and
+          strategising for the 2nd projects launch later in the year.
+        </p>
       </section>
       <section className="mb-16">
         <div className="flex flex-row items-center mb-8">
@@ -32,35 +39,37 @@ const Overview = () => {
         </div>
         <div>
           <h4 className="text-slate-300">What is our supply?</h4>
-          <h3 className="mb-8">1111</h3>
+          <h3 className="mb-8">111</h3>
           <h4 className="text-slate-300">What is the mint price?</h4>
-          <h3 className="mb-8">0.2 Sol</h3>
+          <h3 className="mb-8">0.5 Sol</h3>
           <h4 className="text-slate-300">Where can I mint?</h4>
           <h3 className="mb-8">
-            <a
+            the link will be shared soon
+            {/* <a
               onClick={() =>
-                window.open("https://themokies.vercel.app/", "_blank")
+                window.open("https://.vercel.app/", "_blank")
               }
             >
-              https://themokies.vercel.app/
-            </a>
+              the link will be shared soon
+            </a> */}
           </h3>
           <h4 className="text-slate-300">When is the minting date?</h4>
-          <h3 className="mb-8">May 20th, 2022.</h3>
+          <h3 className="mb-8">TBA</h3>
           <h4 className="text-slate-300">
             Where will secondary sales take place?
           </h4>
           <h3 className="mb-8">
-            <a
+            On MagicEden
+            {/* <a
               onClick={() =>
                 window.open(
-                  "https://magiceden.io/marketplace/themokies",
+                  "https://magiceden.io/marketplace/",
                   "_blank"
                 )
               }
             >
-              https://magiceden.io/marketplace/themokies
-            </a>
+              On MagicEden
+            </a> */}
           </h3>
         </div>
       </section>

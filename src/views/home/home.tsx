@@ -1,4 +1,4 @@
-import mokies from "assets/images/Mokies.png";
+import Mochies from "assets/images/Mochies.png";
 import { Button } from "antd";
 import { useState } from "react";
 import { useNavigate } from "react-router";
@@ -8,20 +8,20 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleMint = () => {
-    window.open("https://themokies.vercel.app/", "_blank");
+    window.open("https://xxxx.vercel.app/", "_blank");
   };
 
   return (
     <div className="flex flex-row items-center h-full p-8">
       <article className="w-6/12 p-8">
         <h1>
-          The Mochie's are <br />
-          <span className="text-blue">Ready</span>
+          The Gooky's are <br />
+          <span className="text-blue">Born</span>
         </h1>
         <p>
           A community-driven collectibles project. The Mokie’s come in a joyful
-          range of colors, traits and sizes with a collection size of 1111. Each
-          Mokie you earn get you closer to eternal happiness.
+          range of colors and traits with a collection size of 111. Each Mokie
+          you earn will give you access Gooky world benefits.
         </p>
         <div>
           <Button
@@ -37,8 +37,8 @@ const Home = () => {
             type="primary"
             shape="round"
             size="large"
-            className="w-40 !h-16"
-            onClick={() => handleMint()}
+            className="w-40 !h-16 !cursor-not-allowed"
+            // onClick={() => handleMint()}
           >
             Mint
           </Button>
@@ -47,7 +47,7 @@ const Home = () => {
       <article className="w-6/12 h-full">
         <img
           className="h-full ml-auto"
-          src={mokies}
+          src={Mochies}
           alt="preview on the mokies collection"
         />
       </article>

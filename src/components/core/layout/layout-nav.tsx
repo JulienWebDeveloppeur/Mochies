@@ -15,7 +15,7 @@ const LayoutNav = () => {
       <div className="flex flex-row items-center">
         <div className="pr-4">
           <Link to="/">
-            <span className="text-3xl">The Mokie's</span>
+            <span className="text-3xl">The Gooky's</span>
           </Link>
         </div>
         {tabs.map((tab: NavigationItemType, index) => (
@@ -35,36 +35,26 @@ const LayoutNav = () => {
       <div className="flex flex-row items-center">
         <div className="flex flex-row items-center">
           <a
-            href="https://twitter.com/NounBirdsNFT"
+            href="https://twitter.com/gookysNFT"
             target="_blank"
             rel="noreferrer"
           >
-            {/* todo real link */}
             <TwitterOutlined
               className="hover:text-lg"
               style={{ fontSize: "24px", color: "white", paddingRight: "2rem" }}
             />
           </a>
-          {/* todo real link */}
-          <a
-            className="hover:text-lg"
-            href="https://twitter.com/NounBirdsNFT"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <InstagramOutlined
-              style={{ fontSize: "24px", color: "white", paddingRight: "2rem" }}
-            />
-          </a>
+          {/* todo discord link */}
         </div>
         <div className="pr-4">
           <Button
             type="primary"
             shape="round"
             size="large"
-            onClick={() =>
-              window.open("https://themokies.vercel.app/", "_blank")
-            }
+            className="!cursor-not-allowed"
+            // onClick={() =>
+            //   window.open("https://xxxx.vercel.app/", "_blank")
+            // }
           >
             Mint
           </Button>
