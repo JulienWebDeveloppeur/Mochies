@@ -9,7 +9,7 @@ const App = () => (
     <header>
       <LayoutNav></LayoutNav>
     </header>
-    <section className="p-12 py-0 full-page" style={{ paddingTop: "88px" }}>
+    <section className="lg:p-12 py-0 full-page" style={{ paddingTop: "88px" }}>
       <Routing></Routing>
     </section>
   </Router>

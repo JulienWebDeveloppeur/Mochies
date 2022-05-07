@@ -15,8 +15,8 @@ const Overview = () => {
         </p>
       </section>
       <section className="mb-12 relative h-60 flex items-center">
-        <img src={Banner} alt="banner" className="absolute" />
-        <p className="font-bold text-center px-4">
+        <img src={Banner} alt="banner" className="absolute hidden lg:block" />
+        <p className="font-bold text-center lg:px-8">
           We are releasing a Genesis collection of 111 Gooky's. Holders of our
           genesis collection will have full access to our community and a
           beautiful pfp. They also have a say in the decision making and
@@ -29,7 +29,7 @@ const Overview = () => {
           <h2 className="mb-0">Our Team</h2>
         </div>
         <div className="flex flex-row justify-center">
-          <img src={TeamAvatars} className="max-w-2xl" alt="team avatars" />
+          <img src={TeamAvatars} className="lg:max-w-2xl" alt="team avatars" />
         </div>
       </section>
       <section className="mb-12">

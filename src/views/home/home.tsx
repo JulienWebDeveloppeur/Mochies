@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-row items-center h-full p-8">
-      <article className="w-6/12 p-8">
+      <article className="lg:w-6/12 lg:p-8">
         <h1>
           The Gooky's are <br />
           <span className="text-blue">Born</span>
@@ -44,7 +44,7 @@ const Home = () => {
           </Button>
         </div>
       </article>
-      <article className="w-6/12 h-full">
+      <article className="hidden lg:block w-6/12 h-full">
         <img
           className="h-full ml-auto"
           src={Mochies}
