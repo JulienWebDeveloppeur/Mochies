@@ -19,7 +19,7 @@ const Home = () => {
           <span className="text-blue">Born</span>
         </h1>
         <p>
-          A community-driven collectibles project. The Mokie’s come in a joyful
+          A community-driven collectibles project. The Gooky’s come in a joyful
           range of colors and traits with a collection size of 111. Each Mokie
           you earn will give you access Gooky world benefits.
         </p>
