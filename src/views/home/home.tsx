@@ -15,8 +15,8 @@ const Home = () => {
     <div className="flex flex-row items-center h-full p-8">
       <article className="w-6/12 p-8">
         <h1>
-          The Mokie's are <br />
-          <span className="text-blue">growing</span>
+          The Mochie's are <br />
+          <span className="text-blue">Ready</span>
         </h1>
         <p>
           A community-driven collectibles project. The Mokie’s come in a joyful
