@@ -3,6 +3,7 @@
 
 h1 {
   @apply text-6xl;
+  font-family: "Macondo", sans-serif;
 }
 h2 {
   @apply text-4xl;

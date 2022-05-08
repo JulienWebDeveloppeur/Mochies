@@ -15,7 +15,7 @@ const LayoutNav = () => {
       <div className="flex flex-row items-center">
         <div className="pr-4">
           <Link to="/">
-            <span className="text-3xl">The Gooky's</span>
+            <span className="text-3xl font-heading">The Gooky's</span>
           </Link>
         </div>
         {tabs.map((tab: NavigationItemType, index) => (

@@ -8,19 +8,19 @@ const Overview = () => {
         <h1 className="mb-8">
           THE <span className="text-blue">Gooky's</span> ARE
         </h1>
-        <p className="font-bold">
+        <p>
           A community-driven collectibles project. This collection might bring
-          you some surprises, they are designed to evolve and give you access to
-          future collection.
+          you some surprises. They are designed to evolve and give you access to
+          future projects around the Gooky's world.
         </p>
       </section>
       <section className="mb-12 relative h-60 flex items-center">
         <img src={Banner} alt="banner" className="absolute hidden lg:block" />
-        <p className="font-bold text-center lg:px-8">
-          We are releasing a Genesis collection of 111 Gooky's. Holders of our
-          genesis collection will have full access to our community and a
-          beautiful pfp. They also have a say in the decision making and
-          strategising for the 2nd projects launch later in the year.
+        <p className="text-center lg:px-8">
+          We are releasing a Genesis collection of 111 Gooky's. Holders will
+          have full access to our community and a beautiful pfp. They also have
+          a say in the decision making and strategising for the 2nd projects
+          launch later in the year.
         </p>
       </section>
       <section className="mb-16">

@@ -14,14 +14,11 @@ const Home = () => {
   return (
     <div className="flex flex-row items-center h-full p-8">
       <article className="lg:w-6/12 lg:p-8">
-        <h1>
-          The Gooky's are <br />
-          <span className="text-blue">Born</span>
-        </h1>
+        <h1>GOOKY'S PARTY</h1>
         <p>
           A community-driven collectibles project. The Gooky’s come in a joyful
-          range of colors and traits with a collection size of 111. Each Mokie
-          you earn will give you access Gooky world benefits.
+          range of colors and traits with a collection size of 111. Each Gooky
+          you earn will give you access to the Gooky's world benefits.
         </p>
         <div>
           <Button
