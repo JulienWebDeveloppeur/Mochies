@@ -19,11 +19,13 @@ body {
 
   .img-sliding{
     background: url('./assets/images/sliding_banner.png') repeat-x;
-    -webkit-animation: slide 60s linear infinite;
-    animation: slide 60s linear infinite;
     height: 652px;
-    width: 2754px;
-
+    width: 2705px;
+    margin: 0 auto;
+    @media (max-width: 1800px) {
+      -webkit-animation: slide 60s linear infinite;
+      animation: slide 60s linear infinite;
+      }
     @media (max-width: 640px) {
       background: url('./assets/images/sliding_banner_mobile.png') repeat-x;
       -webkit-animation: slideMobile 60s linear infinite;
@@ -31,6 +33,8 @@ body {
       height: 326px;
       width: 1378px;
       }
+
+      
   }
 
   @keyframes slide{
@@ -38,7 +42,7 @@ body {
       transform: translate3d(0, 0, 0);
     }
     100%{
-      transform: translate3d(-918px, 0, 0);
+      transform: translate3d(-901px, 0, 0);
     }
   }
 
