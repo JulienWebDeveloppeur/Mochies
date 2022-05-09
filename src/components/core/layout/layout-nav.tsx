@@ -46,7 +46,7 @@ const LayoutNav = () => {
           </a>
           {/* todo discord link */}
         </div>
-        <div className="pr-4">
+        <div className="pr-4 hidden lg:block">
           <Button
             type="primary"
             shape="round"

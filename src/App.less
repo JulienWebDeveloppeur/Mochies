@@ -16,3 +16,37 @@ body {
   .font-heading{
     font-family: "Macondo", sans-serif !important;
   }
+
+  .img-sliding{
+    background: url('./assets/images/sliding_banner.png') repeat-x;
+    -webkit-animation: slide 60s linear infinite;
+    animation: slide 60s linear infinite;
+    height: 652px;
+    width: 2754px;
+
+    @media (max-width: 640px) {
+      background: url('./assets/images/sliding_banner_mobile.png') repeat-x;
+      -webkit-animation: slideMobile 60s linear infinite;
+      animation: slideMobile 60s linear infinite;
+      height: 326px;
+      width: 1378px;
+      }
+  }
+
+  @keyframes slide{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-918px, 0, 0);
+    }
+  }
+
+  @keyframes slideMobile{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-459px, 0, 0);
+    }
+  }

@@ -25,7 +25,7 @@ const Home = () => {
             type="ghost"
             shape="round"
             size="large"
-            className="w-40 !h-16 mr-8"
+            className="w-40 !h-16 mr-8 mb-4 lg:mb-0"
             onClick={() => navigate("overview")}
           >
             Learn more
