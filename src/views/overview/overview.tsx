@@ -47,9 +47,9 @@ const Overview = () => {
           </div>
           <div>
             <h4 className="text-slate-300">What is our supply?</h4>
-            <h3 className="mb-8">111</h3>
+            <h3 className="mb-8">333</h3>
             <h4 className="text-slate-300">What is the mint price?</h4>
-            <h3 className="mb-8">0.5 Sol</h3>
+            <h3 className="mb-8">0.15 Sol</h3>
             <h4 className="text-slate-300">Where can I mint?</h4>
             <h3 className="mb-8">
               the link will be shared soon
