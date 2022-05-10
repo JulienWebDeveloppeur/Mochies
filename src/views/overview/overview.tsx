@@ -21,7 +21,7 @@ const Overview = () => {
         <section className="mb-12 relative h-60 flex items-center">
           <img src={Banner} alt="banner" className="absolute hidden lg:block" />
           <p className="text-center lg:px-8">
-            We are releasing a Genesis collection of 111 Gooky's. Holders will
+            We are releasing a Genesis collection of 333 Gooky's. Holders will
             have full access to our community and a beautiful pfp. They also
             have a say in the decision making and strategising for the 2nd
             projects launch later in the year.

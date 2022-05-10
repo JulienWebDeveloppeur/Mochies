@@ -17,7 +17,7 @@ const Home = () => {
         <h1>GOOKY'S PARTY</h1>
         <p>
           A community-driven collectibles project. The Gooky’s come in a joyful
-          range of colors and traits with a collection size of 111. Each Gooky
+          range of colors and traits with a collection size of 333. Each Gooky
           you earn will give you access to the Gooky's world benefits.
         </p>
         <div>
